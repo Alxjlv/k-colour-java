@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.ojalgo.array.operation</OriginalElement>
+  <nodes>
+    <node x="5361.5" y="196.0">org.ojalgo.array.operation.RotateLeft</node>
+    <node x="4883.5" y="196.0">org.ojalgo.array.operation.SubstituteForwards</node>
+    <node x="3075.5" y="196.0">org.ojalgo.array.operation.ApplyLU</node>
+    <node x="3560.5" y="196.0">org.ojalgo.array.operation.GenerateApplyAndCopyHouseholderRow</node>
+    <node x="3864.5" y="196.0">org.ojalgo.array.operation.ApplyLDL</node>
+    <node x="470.0" y="332.0">org.ojalgo.array.operation.ROTG</node>
+    <node x="282.0" y="332.0">org.ojalgo.array.operation.SCAL</node>
+    <node x="1316.0" y="332.0">org.ojalgo.array.operation.AMAX</node>
+    <node x="2831.0" y="0.0">org.ojalgo.array.operation.ArrayOperation</node>
+    <node x="2091.5" y="196.0">org.ojalgo.array.operation.AggregateAll</node>
+    <node x="658.0" y="332.0">org.ojalgo.array.operation.ROTM</node>
+    <node x="188.0" y="332.0">org.ojalgo.array.operation.SDOT</node>
+    <node x="1497.0" y="332.0">org.ojalgo.array.operation.CABS1</node>
+    <node x="1142.5" y="196.0">org.ojalgo.array.operation.MultiplyRight</node>
+    <node x="376.0" y="332.0">org.ojalgo.array.operation.NRM2</node>
+    <node x="5232.5" y="196.0">org.ojalgo.array.operation.ModifyAll</node>
+    <node x="748.5" y="196.0">org.ojalgo.array.operation.BLAS1</node>
+    <node x="1410.0" y="332.0">org.ojalgo.array.operation.ROT</node>
+    <node x="2433.5" y="196.0">org.ojalgo.array.operation.BLAS2</node>
+    <node x="2534.5" y="196.0">org.ojalgo.array.operation.BLAS3</node>
+    <node x="752.0" y="332.0">org.ojalgo.array.operation.AMIN</node>
+    <node x="846.0" y="332.0">org.ojalgo.array.operation.SWAP</node>
+    <node x="564.0" y="332.0">org.ojalgo.array.operation.DOTU</node>
+    <node x="1135.0" y="332.0">org.ojalgo.array.operation.ASUM</node>
+    <node x="1763.5" y="196.0">org.ojalgo.array.operation.HouseholderRight</node>
+    <node x="1034.0" y="332.0">org.ojalgo.array.operation.ROTMG</node>
+    <node x="4101.5" y="196.0">org.ojalgo.array.operation.SubstituteBackwards</node>
+    <node x="5075.5" y="196.0">org.ojalgo.array.operation.ApplyCholesky</node>
+    <node x="1299.5" y="196.0">org.ojalgo.array.operation.MultiplyNeither</node>
+    <node x="1229.0" y="332.0">org.ojalgo.array.operation.DOT</node>
+    <node x="4300.5" y="196.0">org.ojalgo.array.operation.HouseholderHermitian</node>
+    <node x="2635.5" y="196.0">org.ojalgo.array.operation.SortAll</node>
+    <node x="940.0" y="332.0">org.ojalgo.array.operation.AXPY</node>
+    <node x="3190.5" y="196.0">org.ojalgo.array.operation.VisitAll</node>
+    <node x="1941.5" y="196.0">org.ojalgo.array.operation.MultiplyBoth</node>
+    <node x="94.0" y="332.0">org.ojalgo.array.operation.DOTC</node>
+    <node x="3986.5" y="196.0">org.ojalgo.array.operation.FillAll</node>
+    <node x="2241.5" y="196.0">org.ojalgo.array.operation.FillMatchingSingle</node>
+    <node x="1613.5" y="196.0">org.ojalgo.array.operation.MultiplyLeft</node>
+    <node x="1470.5" y="196.0">org.ojalgo.array.operation.RotateRight</node>
+    <node x="4677.5" y="196.0">org.ojalgo.array.operation.HermitianRank2Update</node>
+    <node x="3312.5" y="196.0">org.ojalgo.array.operation.MultiplyHermitianAndVector</node>
+    <node x="1027.5" y="196.0">org.ojalgo.array.operation.IndexOf</node>
+    <node x="0.0" y="332.0">org.ojalgo.array.operation.COPY</node>
+    <node x="849.5" y="196.0">org.ojalgo.array.operation.FillMatchingDual</node>
+    <node x="4506.5" y="196.0">org.ojalgo.array.operation.HouseholderLeft</node>
+    <node x="2750.5" y="196.0">org.ojalgo.array.operation.GenerateApplyAndCopyHouseholderColumn</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.ojalgo.array.operation.AMIN" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.GenerateApplyAndCopyHouseholderRow" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="3702.5" y="146.0" />
+      <point x="2922.862068965517" y="146.0" />
+      <point x="19.86206896551721" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.MultiplyLeft" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1678.5" y="106.0" />
+      <point x="2863.2758620689656" y="106.0" />
+      <point x="-39.72413793103442" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SDOT" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="225.0" y="262.0" />
+      <point x="760.4117647058824" y="262.0" />
+      <point x="-28.58823529411768" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.FillAll" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4034.0" y="126.0" />
+      <point x="2932.793103448276" y="126.0" />
+      <point x="29.793103448275815" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.IndexOf" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1075.0" y="66.0" />
+      <point x="2843.4137931034484" y="66.0" />
+      <point x="-59.58620689655163" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.FillMatchingDual" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="928.5" y="56.0" />
+      <point x="2838.448275862069" y="56.0" />
+      <point x="-64.55172413793116" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.AggregateAll" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2156.5" y="136.0" />
+      <point x="2878.1724137931033" y="136.0" />
+      <point x="-24.82758620689674" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.DOTU" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="601.0" y="302.0" />
+      <point x="779.4705882352941" y="302.0" />
+      <point x="-9.529411764705856" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.MultiplyRight" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1211.0" y="76.0" />
+      <point x="2848.3793103448274" y="76.0" />
+      <point x="-54.620689655172555" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ApplyLDL" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="3915.5" y="136.0" />
+      <point x="2927.8275862068967" y="136.0" />
+      <point x="24.82758620689674" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.HouseholderHermitian" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4393.5" y="106.0" />
+      <point x="2942.7241379310344" y="106.0" />
+      <point x="39.72413793103442" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.HouseholderRight" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1842.5" y="116.0" />
+      <point x="2868.2413793103447" y="116.0" />
+      <point x="-34.758620689655345" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ROTM" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="695.0" y="312.0" />
+      <point x="784.2352941176471" y="312.0" />
+      <point x="-4.764705882352928" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SubstituteForwards" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4969.5" y="76.0" />
+      <point x="2957.6206896551726" y="76.0" />
+      <point x="54.620689655172555" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.MultiplyNeither" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1375.0" y="86.0" />
+      <point x="2853.344827586207" y="86.0" />
+      <point x="-49.655172413793025" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ROTMG" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1074.5" y="292.0" />
+      <point x="803.2941176470588" y="292.0" />
+      <point x="14.294117647058783" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.GenerateApplyAndCopyHouseholderColumn" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.DOTC" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="131.0" y="252.0" />
+      <point x="755.6470588235293" y="252.0" />
+      <point x="-33.35294117647061" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.BLAS3" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2575.0" y="166.0" />
+      <point x="2893.0689655172414" y="166.0" />
+      <point x="-9.931034482758605" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.VisitAll" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="3241.5" y="166.0" />
+      <point x="2912.9310344827586" y="166.0" />
+      <point x="9.931034482758605" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.DOT" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1262.5" y="272.0" />
+      <point x="812.8235294117649" y="272.0" />
+      <point x="23.823529411764753" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.BLAS1" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="789.0" y="46.0" />
+      <point x="2833.4827586206898" y="46.0" />
+      <point x="-69.51724137931024" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ASUM" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1172.0" y="282.0" />
+      <point x="808.0588235294117" y="282.0" />
+      <point x="19.058823529411825" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.RotateLeft" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="5419.5" y="46.0" />
+      <point x="2972.5172413793102" y="46.0" />
+      <point x="69.51724137931024" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ROT" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1443.5" y="252.0" />
+      <point x="822.3529411764707" y="252.0" />
+      <point x="33.35294117647061" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SCAL" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="319.0" y="272.0" />
+      <point x="765.1764705882351" y="272.0" />
+      <point x="-23.823529411764753" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ModifyAll" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="5287.0" y="56.0" />
+      <point x="2967.551724137931" y="56.0" />
+      <point x="64.55172413793116" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.HouseholderLeft" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4582.0" y="96.0" />
+      <point x="2947.689655172414" y="96.0" />
+      <point x="44.68965517241395" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.AMAX" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1353.0" y="262.0" />
+      <point x="817.5882352941176" y="262.0" />
+      <point x="28.58823529411768" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.FillMatchingSingle" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2327.5" y="146.0" />
+      <point x="2883.137931034483" y="146.0" />
+      <point x="-19.86206896551721" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.RotateRight" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="1532.0" y="96.0" />
+      <point x="2858.310344827586" y="96.0" />
+      <point x="-44.68965517241395" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SubstituteBackwards" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4191.0" y="116.0" />
+      <point x="2937.7586206896553" y="116.0" />
+      <point x="34.758620689655345" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.MultiplyBoth" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2006.5" y="126.0" />
+      <point x="2873.206896551724" y="126.0" />
+      <point x="-29.793103448275815" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.NRM2" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="413.0" y="282.0" />
+      <point x="769.9411764705883" y="282.0" />
+      <point x="-19.05882352941171" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ROTG" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="507.0" y="292.0" />
+      <point x="774.7058823529412" y="292.0" />
+      <point x="-14.294117647058783" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.MultiplyHermitianAndVector" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="3426.5" y="156.0" />
+      <point x="2917.896551724138" y="156.0" />
+      <point x="14.896551724138135" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.CABS1" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="1537.5" y="242.0" />
+      <point x="827.1176470588234" y="242.0" />
+      <point x="38.117647058823536" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.AXPY" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="977.0" y="302.0" />
+      <point x="798.5294117647059" y="302.0" />
+      <point x="9.529411764705856" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SortAll" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2683.0" y="176.0" />
+      <point x="2898.0344827586205" y="176.0" />
+      <point x="-4.96551724137953" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.SWAP" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="883.0" y="312.0" />
+      <point x="793.7647058823529" y="312.0" />
+      <point x="4.764705882352928" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ApplyCholesky" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="5144.0" y="66.0" />
+      <point x="2962.5862068965516" y="66.0" />
+      <point x="59.58620689655163" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.COPY" target="org.ojalgo.array.operation.BLAS1">
+      <point x="0.0" y="-13.0" />
+      <point x="37.0" y="242.0" />
+      <point x="750.8823529411766" y="242.0" />
+      <point x="-38.117647058823536" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.BLAS2" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="2474.0" y="156.0" />
+      <point x="2888.103448275862" y="156.0" />
+      <point x="-14.896551724138135" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.ApplyLU" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="3123.0" y="176.0" />
+      <point x="2907.9655172413795" y="176.0" />
+      <point x="4.96551724137953" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.operation.HermitianRank2Update" target="org.ojalgo.array.operation.ArrayOperation">
+      <point x="0.0" y="-13.0" />
+      <point x="4770.5" y="86.0" />
+      <point x="2952.655172413793" y="86.0" />
+      <point x="49.655172413793025" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9445980356493269" x="410.81391766472836" y="179.92390341587407" />
+  <SelectedNodes>
+    <node>org.ojalgo.array.operation.GenerateApplyAndCopyHouseholderColumn</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

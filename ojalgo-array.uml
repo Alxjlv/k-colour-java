@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.ojalgo.array</OriginalElement>
+  <nodes>
+    <node x="185.0" y="304.0">org.ojalgo.array.BigArray</node>
+    <node x="21.0" y="228.0">org.ojalgo.array.BufferArray</node>
+    <node x="380.2500000000001" y="76.0">org.ojalgo.array.SparseArray</node>
+    <node x="450.0" y="304.0">org.ojalgo.array.Primitive32Array</node>
+    <node x="307.0" y="304.0">org.ojalgo.array.ScalarArray</node>
+    <node x="824.7857452027125" y="213.25667291877073">org.ojalgo.array.operation</node>
+    <node x="216.25" y="228.0">org.ojalgo.array.ReferenceTypeArray</node>
+    <node x="649.0" y="522.0">org.ojalgo.array.Array2D</node>
+    <node x="0.0" y="304.0">org.ojalgo.array.BufferArray.DoubleBufferArray</node>
+    <node x="355.0" y="522.0">org.ojalgo.array.ArrayAnyD</node>
+    <node x="244.2500000000001" y="76.0">org.ojalgo.array.DenseArray</node>
+    <node x="244.25000000000006" y="152.0">org.ojalgo.array.PlainArray</node>
+    <node x="523.2500000000001" y="76.0">org.ojalgo.array.SegmentedArray</node>
+    <node x="460.5000000000001" y="0.0">org.ojalgo.array.BasicArray</node>
+    <node x="194.0" y="522.0">org.ojalgo.array.NumberList</node>
+    <node x="628.0" y="304.0">org.ojalgo.array.Primitive64Array</node>
+    <node x="0.0" y="451.0">org.ojalgo.array.DenseCapacityStrategy</node>
+    <node x="529.9117647058824" y="228.0">org.ojalgo.array.PrimitiveArray</node>
+    <node x="132.5" y="380.0">org.ojalgo.array.QuaternionArray</node>
+    <node x="509.0" y="522.0">org.ojalgo.array.Array1D</node>
+    <node x="687.25" y="76.0">org.ojalgo.array.ArrayFactory</node>
+    <node x="453.5" y="380.0">org.ojalgo.array.RationalArray</node>
+    <node x="238.0" y="451.0">org.ojalgo.array.PrimitiveSubtype</node>
+    <node x="441.0" y="451.0">org.ojalgo.array.StrategyBuilder</node>
+    <node x="637.0" y="451.0">org.ojalgo.array.LongToNumberMap</node>
+    <node x="303.5" y="380.0">org.ojalgo.array.ComplexArray</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.ojalgo.array.PlainArray" target="org.ojalgo.array.DenseArray">
+      <point x="5.6843418860808015E-14" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.QuaternionArray" target="org.ojalgo.array.ScalarArray">
+      <point x="0.0" y="-13.0" />
+      <point x="208.0" y="355.0" />
+      <point x="327.5" y="355.0" />
+      <point x="-41.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.ScalarArray" target="org.ojalgo.array.ReferenceTypeArray">
+      <point x="0.0" y="-13.0" />
+      <point x="368.5" y="279.0" />
+      <point x="345.25000000000006" y="279.0" />
+      <point x="43.00000000000006" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.BigArray" target="org.ojalgo.array.ReferenceTypeArray">
+      <point x="0.0" y="-13.0" />
+      <point x="236.0" y="279.0" />
+      <point x="259.25" y="279.0" />
+      <point x="-43.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.SparseArray" target="org.ojalgo.array.BasicArray">
+      <point x="0.0" y="-13.0" />
+      <point x="441.7500000000001" y="56.0" />
+      <point x="504.0000000000001" y="56.0" />
+      <point x="-14.5" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.ComplexArray" target="org.ojalgo.array.ScalarArray">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.BufferArray.DoubleBufferArray" target="org.ojalgo.array.BufferArray">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.Primitive64Array" target="org.ojalgo.array.PrimitiveArray">
+      <point x="0.0" y="-13.0" />
+      <point x="707.0" y="279.0" />
+      <point x="637.9117647058824" y="279.0" />
+      <point x="36.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.ArrayFactory" target="org.ojalgo.array.BasicArray">
+      <point x="0.0" y="-13.0" />
+      <point x="752.25" y="46.0" />
+      <point x="562.0000000000001" y="46.0" />
+      <point x="43.5" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.DenseArray" target="org.ojalgo.array.BasicArray">
+      <point x="5.6843418860808015E-14" y="-13.0" />
+      <point x="302.25000000000017" y="46.0" />
+      <point x="475.0000000000001" y="46.0" />
+      <point x="-43.5" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.SegmentedArray" target="org.ojalgo.array.BasicArray">
+      <point x="0.0" y="-13.0" />
+      <point x="595.2500000000001" y="56.0" />
+      <point x="533.0000000000001" y="56.0" />
+      <point x="14.5" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.BufferArray" target="org.ojalgo.array.PlainArray">
+      <point x="0.0" y="-13.0" />
+      <point x="82.5" y="203.0" />
+      <point x="263.58333333333337" y="203.0" />
+      <point x="-38.666666666666686" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.RationalArray" target="org.ojalgo.array.ScalarArray">
+      <point x="0.0" y="-13.0" />
+      <point x="522.0" y="355.0" />
+      <point x="409.5" y="355.0" />
+      <point x="41.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.ReferenceTypeArray" target="org.ojalgo.array.PlainArray">
+      <point x="5.6843418860808015E-14" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.Primitive32Array" target="org.ojalgo.array.PrimitiveArray">
+      <point x="0.0" y="-13.0" />
+      <point x="529.0" y="279.0" />
+      <point x="565.9117647058824" y="279.0" />
+      <point x="-36.0" y="13.0" />
+    </edge>
+    <edge source="org.ojalgo.array.PrimitiveArray" target="org.ojalgo.array.PlainArray">
+      <point x="0.0" y="-13.0" />
+      <point x="601.9117647058824" y="203.0" />
+      <point x="340.91666666666674" y="203.0" />
+      <point x="38.666666666666686" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6801766437684004" x="564.407011975184" y="629.8311931900159" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
