@@ -24,6 +24,7 @@ dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:28.1-jre")
 
+    implementation("org.ojalgo:ojalgo:48.0.0")
     // Use JUnit test framework
     testImplementation("junit:junit:4.12")
 }

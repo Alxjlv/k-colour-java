@@ -23,7 +23,6 @@ public class App extends Application {
             Scene scene = new Scene(layout);
             primaryStage.setScene(scene);
             primaryStage.show();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
