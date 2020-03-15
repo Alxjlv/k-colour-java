@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 version '1.0-SNAPSHOT'
@@ -8,9 +9,13 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.ojalgo', name: 'ojalgo', version: '47.3.1'
+    implementation 'junit:junit:4.12'
+    implementation 'com.google.guava:guava:26.0-jre'
 }
+ mainClassName = 'main.Main'
